@@ -1,4 +1,23 @@
-# Optimization-in-Linear-programing
+# GLPK Linear Programming
+p1.py is the core part of this project. It can automatically output the lp file for solving the linear programming problem and automatically call the GLPK solution according to the characteristics of each point and edge of the Frucht graph and other requirements in the background. A corresponding lp file and output file are generated for each possibility.
+
+
+# File description
+p1.py
+The main program, used to output n lp files that can be run by simple GLPK and call them on the command line.
+By my own standards, this code is not elegant, but it is sufficient for a deadline with a time limit.
+
+p2.py
+The supplementary program, just output all 531,441 possibilities into a csv file.
+
+cases.csv
+Record all 531,441 possibilities, as the output of p2.py.
+But it's too large to upload. You need to get this file through p2.py first.
+
+
+
+
+# Optimization in Linear programing
 In the Frucht graph.
 You plan to build a building in each of the 12 locations, which can be a quarry, factory, or market.
 There are three types of resources: gold, diamonds and jewelry. Every year, the same amount of resources are sent from the building to the building through the connections. But each connection has a limit: the sum of all resources sent through a connection each year cannot exceed 165 units (for example, if 100 units of gold are sent from a to b, then the amount of diamonds sent from b to a is at most 65).

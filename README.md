@@ -7,9 +7,11 @@ You have 850 units of energy available every year. Energy is not transmitted thr
 Every year a quarry produces 200 units of gold and 75 units of diamonds. This costs 100 units of energy.
 Every year a factory uses 70 units of gold and 20 units of diamonds and produces 60 units of jewellery. This costs 300 units of energy.
 The market sells gold, diamonds, and jewellery.
+
 A unit of gold gives £150.
 A unit of diamonds gives £200.
 A unit of jewellery gives £1000.
+
 Selling costs no energy. The sum of all revenues of all markets is called the total revenue.
 Resources cannot be carried forward across the year. The quarries and factories do not need to use up all resources. You can decide to forward or destroy any number of resources. The forwarding and destruction of resources does not consume energy. You also don’t have to sell everything that is delivered to the market. You can forward these resources instead. Obviously, it does not make sense to forward jewelry through the market instead of selling it, but in principle it may be useful to forward gold or diamonds instead of selling them so that they can be converted into jewelry in the factory.
 The operating efficiency of quarries and factories can be less than 100%. Their input, output, and energy use decline linearly.
